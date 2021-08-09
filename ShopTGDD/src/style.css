@@ -1,0 +1,222 @@
+#header {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #fed700;
+}
+
+.dropdown {
+    float: left;
+    margin: 2% 3% 0 0;
+    font-size: 12pt;
+}
+
+.inputSearch {
+    float: left;
+    width: 50%;
+    margin-top: 1.5%;
+}
+.btnSearch {
+    margin-top: 1.7%;
+    position: fixed;
+    margin-left: -2.5%;
+    background: linear-gradient(#bf2327, #090618, #05256e);
+}
+.btnSearch:hover {
+    background: linear-gradient(#05256e, #bf2327, #090618);
+}
+
+.logo {
+    margin-left: 0%;
+    float: left;
+    margin-right: 2%;
+}
+
+.rightHeader {
+    float: right;
+    font-size: 12pt;
+    margin-top: 1%;
+    color: white;
+}
+
+.iconCart {
+    font-size: 30pt !important;
+    color: white;
+}
+
+.iconCart:hover,
+.dangky:hover,
+.dangnhap:hover {
+    color: #85888f;
+}
+
+#footer {
+    color: #666666;
+    margin-top: 10px;
+    background: transparent;
+    height: 180px;
+}
+h5 {
+    color: white;
+}
+.footmargin {
+    color: #666666;
+    margin-left: 8%;
+}
+.footmargin h5 {
+    color: #666666;
+}
+#a {
+    color: #333333;
+    text-decoration: none;
+}
+#content {
+    margin-top: 66px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.hightlight {
+    margin: 3% 0 3% 3%;
+    font-size: 12pt;
+}
+
+@keyframes hightlightAnimation {
+    0% {
+        color: white;
+        left: 0px;
+    }
+    50% {
+        color: yellow;
+        left: 50px;
+    }
+    100% {
+        color: white;
+        left: 0px;
+    }
+}
+
+.hightlight h3 {
+    font-size: 30pt;
+    position: relative;
+    animation-name: hightlightAnimation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.account {
+    font-size: 14pt;
+    font-weight: bold;
+    color: white !important;
+}
+
+.account-form label {
+    color: #666666;
+}
+
+.account-form button {
+    margin-left: 45%;
+    background-color: red;
+}
+
+@keyframes account {
+    0% {
+        color: white;
+        left: 0px;
+    }
+    25% {
+        color: white;
+        left: 50px;
+    }
+    50% {
+        color: white;
+        left: 0px;
+    }
+    75% {
+        color: white;
+        left: -50px;
+    }
+    100% {
+        color: white;
+        left: 0px;
+    }
+}
+
+.account-animation {
+    font-size: 20pt;
+    margin: 0% 0 1% 40%;
+    color: white;
+    position: relative;
+    animation-name: account;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+
+.inputcard {
+    margin-left: 30%;
+    text-align: center;
+}
+
+.iconcart {
+    margin-top: 15%;
+}
+
+.imgCard {
+    width: 100%;
+    height: 200px;
+}
+.colCard {
+    width: 16%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.colCard:hover {
+    border-style: solid;
+    border-color: white;
+}
+
+@keyframes hightlightAnimationProduct {
+    0% {
+        color: white;
+        left: 0px;
+    }
+    50% {
+        color: yellow;
+        left: 50px;
+    }
+    100% {
+        color: white;
+        left: 0px;
+    }
+}
+
+.hightlight-product h3 {
+    font-size: 30pt;
+    margin: 1% 0% 1% 2%;
+    position: relative;
+    animation-name: hightlightAnimationProduct;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+.hightlight-product {
+    margin-left: 200px;
+    min-height: 500px;
+}
+
+.siderStyle {
+    background: transparent;
+    position: fixed;
+    top: 66px;
+    left: 30px;
+}
+
+.width20 {
+    width: 20%;
+}
